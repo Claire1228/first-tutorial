@@ -524,6 +524,7 @@ TYInitLib 初始化设备对象等数据结构。
      
      调用 TYSetEnum() 设置深度图像传感器输出数据的格式和分辨率：
      ::
+
         LOGD("=== Configure feature, set resolution to 640x480.");
         ASSERT_OK(TYSetEnum(hDevice, TY_COMPONENT_DEPTH_CAM, TY_ENUM_IMAGE_MODE, TY_IMAGE_MODE_DEPTH16_640x480));
 
@@ -2240,22 +2241,3 @@ The camport3 libraries provide support for configuring PERCIPIO depth camera, da
 API for Percipio depth camera
 ++++++++++++++++++++++++++++++++++++
 
-.. doxygenfile:: TYApi.h
-
-
-API for coodinate mapping functions
-++++++++++++++++++++++++++++++++++++
-
-.. doxygenfile:: TYCoordinateMapper.h
-
-
-API for Depth and IR image post processing
-+++++++++++++++++++++++++++++++++++++++++++++
-
-.. doxygenfile:: TYImageProc.h
-
-
-API for Color image post processing
-++++++++++++++++++++++++++++++++++++
-
-.. doxygenfile:: TyIsp.h
