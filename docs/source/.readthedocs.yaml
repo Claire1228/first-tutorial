@@ -6,7 +6,9 @@ formats:
   - epub
   - html
 
-
+python:
+  install:
+    - requirements: docs/source/requirements.txt
 
 
 
